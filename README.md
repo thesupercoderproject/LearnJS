@@ -10,4 +10,4 @@ If you follow the program you'll learn the following skills:
 - Mastering JS Basic
 - Working with DOM
 
-## Module #1 - [Welcome to JS](https://github.com/HackYourFuture/JavaScript1/)
+## Module #1 - [Welcome to JS](/Modules/Module-1/README.md)

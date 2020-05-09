@@ -1,180 +1,163 @@
-# Homework JavaScript1 Week 1
+# Reading Material JavaScript1 Week 1
 
-## **Todo list**
+## Agenda
 
-1. Practice the concepts
-2. JavaScript exercises
-3. Code along
+These are the topics for week 1:
 
-## **1. Practice the concepts**
+1. What is programming?
+   - Introduction
+   - Software
+   - What is a programming language?
+2. What is web development?
+   - Web development vs. software development
+   - Web development vs. web design
+   - Website vs. web application
+3. What is JavaScript?
+4. What are variables?
+   - The keywords: let, const, var
+   - values
+5. What are data types?
+   - 6 basic types
 
-Before we learn how to build actual applications, we first need to gain experience using JavaScript in a computational way. This teaches us how to think like a programmer, and gives us more experience with the language itself.
+## 1. What is programming?
 
-In the following exercises you'll learn how to use different JavaScript concepts to solve common computational problems:
+### Introduction
 
-- [Learn-js](https://www.learn-js.org/). Do all the `Learn the basics` exercises.
-- [Codecademy: Introduction to JavaScript](https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction). Do all the exercises (#1 to #10).
-- [FreeCodeCamp: Introduction to JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript). Do at least 20 exercises, you can choose whichever ones you feel are challenging enough.
+Programming is giving a computer instructions written in a language it can understand, in order to solve a problem. We don't necessarily need computers to solve problems, but we use them because they provide several benefits:
 
-## **2. JavaScript exercises**
+1. They are fast
+2. Cheap to use
+3. Can work 24/7 (as long as it has power)
 
-> Inside of your `JavaScript1` fork and inside of the `Week1` folder, create a folder called `homework`. Inside of that folder, create a folder called `js-exercises`. For all the following exercises create a new `.js` file in that folder (10 files in total). Make sure the name of each file reflects its content: for example, the filename for exercise one could be `logHello.js`.
+This is important to note: a computer is a `tool` we use to make our lives easier. In order to use this tool, we need to talk to it in a way it understands (programming language) and give it commands on what to do (programming). However, despite the power a computer has it is not very smart. It can't do anything without being told **exactly** what it needs to do to solve a problem. This is why we learn how to program: in order to tell the computer to do what we want it to do.
 
-> In each file, start off with the string `'use strict'`. This will make sure the code interpreter will enforce stronger rules when looking at your code.
+Go through the following resources to learn more about what programming is:
 
-> Before starting, make sure you have [Node.js](https://nodejs.org/en/download/) installed on your computer. You'll use this to execute your code to check if it works.
+- [What is programming?](https://www.youtube.com/watch?v=3tWMQ3ZMjbg)
+- [Introduction into programming Playlist](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi)
 
-**Exercise 1: Hello world!**
+### Software
 
-Write a statement, using the `console.log()` function. Give it a string as an argument. The string should contain the message "Hello world!".
+As a software developer (synonym to 'programmer'), you will write these instructions in order to create 'software'. Look at the following video to get a better idea of what software is:
 
-Write 10 statements like these, but in different languages.
+- [What is software?](https://www.youtube.com/watch?v=MSA3WsGeTNI)
 
-For example:
+### What is a programming language?
 
-```
-Halo, dunia! // Indonesian
-Ciao, mondo! // Italian
-Hola, mundo! // Spanish
-```
+Programming is done using a programming language. Why do we need a language to communicate with the computer? At its most basic level, a computer operates based on 0's and 1's: the 0 means 'off', and the 1 means 'on' (think of it like a light switch that either turns the light on or off).
 
-Using the command line, navigate to your `js-exercises` folder and type in the following to test your code:
+Smart people decided to make working with this easier to understand, so that a lot of people can more simply communicate with a computer. This is how the development of programming languages started: by defining a vocabulary, grammar and syntax to put more organization to the 0's and 1's, we can more simply communicate exactly what we want to computer to do.
 
-```
-node FILENAME.js
-```
+- [What are programming languages](https://hackr.io/blog/what-is-programming-language)
 
-It should show the message `Hello world!` in 10 different languages.
+There are various languages, each made to fulfill a certain need. For example, Microsoft developed a language called [C#](https://www.youtube.com/watch?v=paJUbVeKEOU) in order to make applications for Windows computers. Read the following article to learn more about different languages and their uses:
 
-**Exercise 2: Error debugging**
+- [14 Programming Languages Explained](https://mikkegoes.com/14-programming-languages-explained/)
 
-Consider the following code:
+## 1. What is web development?
 
-```js
-console.log('I'm awesome');
-```
+In HackYourFuture we focus on `web` programmming (also known as `web development`): writing code that creates websites and web applications. Look at the following video to learn about what you'll be doing:
 
-Copy the code in your `.js` file and run it in the command line using `node`. You will see that you will get a SyntaxError. **Correct the mistake**.
+- [What does a web developer do?](https://www.youtube.com/watch?v=GEfuOMzRgXo)
 
-Hint: the SyntaxError message will give you some indication of what the error _might_ be, but figure out yourself how to correct it!
+## Web development vs. software development
 
-When done right, it should show the message `I'm awesome`.
+The field of programming is broad. As a software developer (a general term for anyone that writes code to create software) there are several career paths you might take. The following are some of the biggest:
 
-**Exercise 3: Log the number**
+1. Web. Developing websites and web applications to be accessed and used in the browser
+2. Mobile. This refers mostly to Android and iOS application development
+3. Desktop. Every application on your computer has been made by desktop developers
+4. Data science. Writing custom programs to extract patterns from big piles of data is what this developer does.
+5. Gaming. Game developers work with a variety of designers, artists and testers to realize a video game
+6. Quality Assurance. Applications need to be tested, and these developers write tests that check for the correct working of any piece of code
 
-Follow the steps. Make sure that each step is written on the line after.
+Read the following article to read more about different career paths:
 
-1.  First, declare your variable `numberX`. Do not _initialize_ it (which means, don't give it a value) yet.
-2.  Add a `console.log` statement that explains in words _what you think_ the value of `x` is, like in this example.
-3.  Add a `console.log` statement that logs the value of `numberX`.
-4.  Now _initialize_ your variable `numberX` with a number (also called an `integer` in computer science terms).
-5.  Next, add a `console.log` statement that explains _what you think_ the value of `numberX` is.
-6.  Add a `console.log` statement that logs the value of `numberX`.
+- [Software Development Career Paths](https://simpleprogrammer.com/software-development-career-paths/#title-career-developer-options)
 
-**Exercise 4: Log the string**
+Note: once you've chosen a certain track it doesn't mean you can't try out any other! If anything, you are encouraged to explore and see what fits your taste :)
 
-Follow the steps. Make sure that each step is written on the line after.
+### Web development vs. web design
 
-1. Declare a variable `myString` and assign a string to it. Use your full name, including spaces, as the content for the string.
-2. Write a `console.log` statement in which you explain in words _what you think_ the value of the string is.
-3. Now `console.log` the variable `myString`.
-4. Now reassign to the variable `myString` a new string.
-5. Just like what you did before write a `console.log` statement that explains in words _what you think_ will be logged to the console.
-6. Now console.log `myString` again.
+You might have heard these terms used interchangeably. They are, however, two different things. A web developer writes code and handles the logical, technical side. A web designer decides how things are going to look and handle the creative side. The following video will explain this more clearly:
 
-**Exercise 5: Round a number and log it**
+[Web Developer vs. Web Designer](https://www.youtube.com/watch?v=M-M7jBV_Gf4)
 
-Follow the steps. Make sure that each step is written on the line after.
+### Websites vs. web applications
 
-1. Declare a variable `z` and assign the number 7.25 to it.
-2. Write a `console.log` statement in which you log the value of `z`.
-3. Declare another variable `a` that has the value of `z` but rounded to the nearest integer.
-4. Write a `console.log` statement in which you log the value of `a`.
-5. So now we have `z` and `a` find a way to compare the two values and store the highest of the two in a new variable.
-6. Write a `console.log` statement in which you log the value of the highest value.
+Before we get started with the meat of the module (which is JavaScript), we need to make a small but important distinction: are we going to make websites or web applications? For non-developers, there is no difference but for you as a developer you must know what it is that you'll be producing.
 
-**Exercise 6: Log an array of animals**
+The difference between a website and a web application is the difference between [Wikipedia](https://www.wikipedia.org) and [Facebook](https://wwww.facebook.com). In Facebook, the data shown changes depending on the user. If you are logged in, you'll see different things than that I will. However, on Wikipedia the information will always be the same, for both you and me.
 
-Follow the steps. Make sure that each step is written on the line after.
+In other words, we're talking about `static` versus `dynamic` sites: a static site always has the same information and serves only to be information, while a dynamic site changes the data shown to the user depending on who it is and what their interactivity on the page is.
 
-1. Declare variable and assign to it an empty array. Make sure that the name of the variable indicates it contains more than 1 item. For example `items` instead of `item`.
-2. Write a `console.log` statement that explains in words _what you think_ the value of the array is.
-3. Write a `console.log` statement that logs the array.
-4. Create a new variable with an array that has 3 of your favorite animals, each in a different string. Make sure the name of the variables says something about what the variable contains.
-5. Write a `console.log` statement that logs the second array.
-6. Add a statement that adds another string ("Piglet)" to the array of animals.
-7. Write a `console.log` statement that logs the second array!
+Read the following articles to learn more about this:
 
-**Exercise 7: Log the length of a string**
+- [Website vs. Web Application](https://www.seguetech.com/website-vs-web-application-whats-the-difference/)
+- [Static vs. dynamic websites](https://www.youtube.com/watch?v=4sP7fp3cp24)
 
-Follow the steps. Make sure that each step is written on the line after.
+## 3. What is JavaScript?
 
-1. Declare a variable called `mySentence` and initialize it with the following string: "Programming is so interesting!".
-2. Figure out (using Google) how to get the length of `mySentence`.
-3. Write a `console.log` statement to log the length of `mySentence`.
+JavaScript is a programming language. We use it to communicate with the browser, software that allows us to access the Internet and open webpages. It is essential to learn in order to become a web developer.
 
-**Exercise 8: Type checker**
+You've already learned what HTML and CSS do. Javascript is the third part that makes the circle complete. If we liken the three to the human body, we could say that HTML provides the skeleton, CSS provides the skin and shape, and JavaScript provides the animation/interactivity.
 
-Write a program that checks the data types of two variables and logs to the console `SAME TYPE` if they are the same type. If they are different types log `Not the same...`.
+The main use for JavaScript is to make your webpage interactive: for example, if you click a button it will open a popup. Or if you scroll over an image, it changes its color.
 
-1. Declare 4 variables: 2 must be `strings` and 2 must be `objects`
-2. Create 6 conditional statements, where for each you check if the data type of one variable is the same as the other
-3. Find out how to check the type of a variable
-4. Write 2 `console.log` statements to log the type of 2 variables, each with a different data type
-5. Now compare the types of your different variables with one another
-6. Log `Not the same...` when the types are different
+Check the following resources to learn more about it:
 
-Here's an incomplete example of how it could look:
+- [What is JavaScript?](https://www.youtube.com/watch?v=nItSSTwBvSU)
+- [What does JavaScript do and what is it used for?](https://www.youtube.com/watch?v=OSWppEa2Zac)
 
-```js
-// Declare all variables
-let x = 9;
-let y = 67;
+## 4. What are variables?
 
-// Check data type
-console.log(...);
+A variable is a piece of information that is saved. You give it a name that describes what its contents are, and to also refer to it at a later point.
 
-// Check if data type is the same
-if (...) {
-    console.log('SAME TYPE');
-}
-```
+### The keywords: let, const, var
 
-**Exercise 9: Log the remainder**
+The variable is a central concept within programming. It's applied the same way across almost all programming languages. In JavaScript we apply it by using a `keyword`, a word that is reserved by the language because it has a special meaning. Read more about this in the following article:
 
-For each of these, write in comments what the answer is followed by how you came to that conclusion
+- [Variables](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/variables.md)
 
-1. If `x` equals 7, and the only other statement is `x = x % 3`, what would be the value of `x` after the calculation?
-2. If `y` equals 21, and the only other statement is `y = y % 4`, what would be the value of `y` after the calculation?
-3. If `z` equals 13, and the only other statement is `z = z % 2`, what would be the value of `z` after the calculation?
+A variable always contains a `value`: a piece of information that you want to refer to at a later stage. Read more about this here:
 
-**Exercise 10: Compare arrays**
+- [Values](https://www.github.com/hackyourfuture/fundamentals/blob/master/fundamentals/values.md)
 
-1. Declare 2 variables, that each hold an array. The first array should have 4 items, the second 7 items
-2. Find out how to get the length of each array. Write a `console.log` statement that shows the length of each array
+When creating variables, it's important to think about the right name to give it. It should always reflect what "type" of data it contains and how it would make sense in light of the rest of your code. You (and other developers that will read your code) should be able to read a variable name and know what its purpose is.
+
+Why do we need variables? You'll be using variables to manipulate its content (the value inside the variable). Why would you want to do this? For most of the time, you want to perform some kind of calculation. The most basic example is the following:
 
 ```js
-const array = ["hello", 123, true, { name: "Noer" }];
-
-console.log('The length of the array is...' + ...);
+const one = 1;
+const two = one + one;
 ```
 
-3. Write a conditional statement that checks if both are of equal length. If they are, log to the console `They are the same!`, if not log `Two different sizes`
+Here we have assigned to a new variable the calculation `one` plus `one`. Why have we put the end result into a new variable? It is because the result of the calculation will not be remembered later down the line of code, so we store it in a variable in case we want to manipulate that some point later.
 
-## **3. Code along**
+This is something that you will learn when you start coding yourself. If you can't wait you can already look at the [homework](./MAKEME.md).
 
-We don't want to lose the connection with HTML/CSS, so in the following tutorial you'll learn how to build a simple web application use HTML/CSS and JavaScript.
+## 5. What are data types?
 
-You'll first write the HTML and CSS, to provide structure and style to the page. When doing so, keep notice of how the developer chooses to do this. Why do they use this tag instead of something else? Why do they give an element a certain class name?
+A data type is a category of data. It tells the code interpreter what kind of data it is reading so it knows how to optimally store it in memory. An example of this is the Number type. In most programming languages, when it reads the number `2` it doesn't know that it's a number. It needs to be told it is so. In JavaScript, however, that is assumed.
 
-After, the developer will write JavaScript code. You'll notice it's different from how you've used JavaScript. It is something we call **DOM Manipulation**. Don't worry, you don't need to master this just yet. Just follow along and do some research yourself if you already want to learn more about it!
+## 6 Basic types
 
-- [Calculator](https://www.youtube.com/watch?v=6v4vBXL-qkY)
+There are about 6 basic data types in JavaScript. String, Number, Boolean, Object, Array, and Function. You can read more about them in the following article:
 
-## **SUBMIT YOUR HOMEWORK!**
+- [JavaScript Data Types](https://www.tutorialrepublic.com/javascript-tutorial/javascript-data-types.php)
+- [JS Data Types](https://www.w3schools.com/js/js_datatypes.asp)
+- [Variables & Data Types](https://www.youtube.com/watch?v=Hrd3SfCCXZw)
 
-The homework that needs to be submitted is the following:
+Why do you need to know this? Again, this goes back to computers not being very smart: it needs to know **exactly** how to look at things, what to do with it and in what order.
 
-1. JavaScript exercises
+In JavaScript, the data types allow us to store various types of information, and perform manipulations on them. You'll learn more about them at a later stage.
 
-_Deadline Saturday 23.59 CET_
+## Extra resources
+
+If you feel like you need more information to fill in the gaps of your understanding, check out the following resources to learn more about the basics of JavaScript:
+
+- [Introduction to JavaScript Development](https://www.udemy.com/refactoru-intro-js)
+
+## Finished?
+
+Are you finished with going through the materials? You're doing great! If you feel ready to get practical, click [here](./MAKEME.md).

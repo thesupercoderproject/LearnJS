@@ -48,15 +48,7 @@ This repository consists of 3 parts:
 
 After your first class you should start with checking the `reading materials` for that week. So, for the first time that is the [Week 1 Reading](/Modules/Reading-1/README.md). Study all the concepts and try to get the gist of everything. After, you can get started with the `homework` for that week.
 
-If you have any questions or if something is not entirely clear ¯\\\_(ツ)\_/¯, please ask/comment on Slack!
-
-## Planning
-
-| Week | Topic                                                                             | Reading Materials              | Homework                        | Lesson Plan                            |
-| ---- | --------------------------------------------------------------------------------- | ------------------------------ | ------------------------------- | -------------------------------------- |
-| 1.   | What is JavaScript?, Variables, Data Structures & Naming Conventions              | [Reading W1](/Week1/README.md) | [Homework W1](/Week1/MAKEME.md) | [Lesson Plan W1](/Week1/LESSONPLAN.md) |
-| 2.   | Statements vs. Expressions, Control flow, Loops, Operators, Conditional statement | [Reading W2](/Week2/README.md) | [Homework W2](/Week2/MAKEME.md) | [Lesson Plan W2](/Week1/LESSONPLAN.md) |
-| 3.   | Functions, Thinking like a programmer I, How JavaScript relates to HTML/CSS       | [Reading W3](/Week3/README.md) | [Homework W3](/Week3/MAKEME.md) | [Lesson Plan W3](/Week3/LESSONPLAN.md) |
+Here is the Homework [Week 1](/Modules/Homework/README.md)
 
 ## Finished?
 
