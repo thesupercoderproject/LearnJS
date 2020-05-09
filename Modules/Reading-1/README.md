@@ -134,7 +134,7 @@ const two = one + one;
 
 Here we have assigned to a new variable the calculation `one` plus `one`. Why have we put the end result into a new variable? It is because the result of the calculation will not be remembered later down the line of code, so we store it in a variable in case we want to manipulate that some point later.
 
-This is something that you will learn when you start coding yourself. If you can't wait you can already look at the [homework](./MAKEME.md).
+This is something that you will learn when you start coding yourself. If you can't wait you can already look at the [homework](/Modules/Homework/README.md).
 
 ## 5. What are data types?
 
@@ -160,4 +160,4 @@ If you feel like you need more information to fill in the gaps of your understan
 
 ## Finished?
 
-Are you finished with going through the materials? You're doing great! If you feel ready to get practical, click [here](./MAKEME.md).
+Are you finished with going through the materials? You're doing great! If you feel ready to get practical, click [here](/Modules/Homework/README.md).
