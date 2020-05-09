@@ -175,4 +175,4 @@ After, the developer will write JavaScript code. You'll notice it's different fr
 
 1. JavaScript exercises
 
-_Deadline Saturday 23.59 CET_
+_Deadline Saturday 23.59 NIGERIAN TIME_
