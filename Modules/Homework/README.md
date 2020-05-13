@@ -169,7 +169,7 @@ You'll first write the HTML and CSS, to provide structure and style to the page.
 
 After, the developer will write JavaScript code. You'll notice it's different from how you've used JavaScript. It is something we call **DOM Manipulation**. Don't worry, you don't need to master this just yet. Just follow along and do some research yourself if you already want to learn more about it!
 
-- [Calculator](https://www.youtube.com/watch?v=6v4vBXL-qkY)
+- [Calculator](https://www.youtube.com/watch?v=j59qQ7YWLxw)
 
 ## **SUBMIT YOUR HOMEWORK!**
 
