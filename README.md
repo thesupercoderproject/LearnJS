@@ -10,4 +10,6 @@ If you follow the program you'll learn the following skills:
 - Mastering JS Basic
 - Working with DOM
 
-## Module #1 - [Welcome to JS](/Modules/Module-1/README.md)
+## Module #1 - [Welcome to JS](/Week-1/Module-1/README.md)
+
+## Module #2 - [Statement and Expression](/Week-2/README.md)
