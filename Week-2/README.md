@@ -86,4 +86,4 @@ Read about the different naming conventions for JavaScript here:
 
 ## Finished?
 
-Are you finished with going through the materials? You're doing great! If you feel ready to get practical, click [here](./MAKEME.md).
+Are you finished with going through the materials? You're doing great! If you feel ready to get practical, click [here](/Week-2/HOMEWORK.md).
