@@ -34,28 +34,6 @@ node --version
 
 It should show you version `v12.16.1` or higher.
 
-### 2. A new way of submitting homework!
-
-Starting from this module you'll submit homework in a different way. You will be only using GIT and GitHub and work **like a real developer would**: pushing code from your computer to GitHub and making pull requests!
-
-Before you start with the homework, make a `fork` of the following repository: [HackYourHomework/JavaScript1](https://www.github.com/hackyourhomework/javascript1). You'll always use the **HackYourHomework** version of the module repository whenever you have to submit your homework.
-
-Here are the steps to get started:
-
-1. `fork` the HackYourHomework repository to your personal account.
-2. `clone` your forked repository to your computer.
-3. Make `GIT` branches for each week. Start at the `master` branch and execute the following (note that they're 3 different commands):
-
-```console
-foo@bar:~$ git branch week1-YOURNAME
-foo@bar:~$ git branch week2-YOURNAME
-foo@bar:~$ git branch week3-YOURNAME
-```
-
-4. `checkout` to `week1-YOURNAME`
-5. Get started with making your homework!
-
-Here's a video in order that shows you how it's done: [How to Submit Your Homework](https://www.youtube.com/watch?v=CpYARPYGQU8)
 
 ### 3. Presentation module
 Besides learing a lot of technical concepts you'll be focussing on the softskills as well. Please have a look at [this](https://github.com/HackYourFuture/presentation-module) RePo for more details.
