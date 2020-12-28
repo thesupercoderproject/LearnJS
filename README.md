@@ -97,17 +97,13 @@ In summary:
 
 ![Weekflow](assets/weekflow.png)
 
-To have a more detailed overview of the guidelines, please read [this document](https://docs.google.com/document/d/1JUaEbxMQTyljAPFsWIbbLwwvvIXZ0VCHmCCN8RaeVIc/edit?usp=sharing) or ask your mentor/class on Slack!
+
 
 ### Video lectures
 
-For each module HackYourFuture provides you with video lectures. These are made by experienced software developers who know what they're talking about. The main teacher for this module will be [Uday Khaki](https://hackyourfuture.slack.com/team/U3T5HDP0W): former HackYourFuture student and now successful web developer for several years!
+For each module of the bootcampß provides you with video lectures. These are made by experienced software developers who know what they're talking about. 
 
-You can find out more about him here:
 
-- [@Uday on Slack](https://hackyourfuture.slack.com/team/U3T5HDP0W)
-
-Learn from Uday in the following playlist of videos he has made for you! (Click on the image to open the link)
 
 <a href="https://www.youtube.com/playlist?list=PLVYDhqbgYpYUiqH8IxLJ5qomkEGMzes1q" target="_blank"><img src="./assets/week1-uday.png" width="600" height="350" alt="HYF Video" /></a>
 
