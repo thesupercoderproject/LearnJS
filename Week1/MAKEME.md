@@ -194,9 +194,7 @@ After, the developer will write JavaScript code. You'll notice it's different fr
 
 After you've finished your todo list it's time to show us what you got! Starting from this week you'll be submitting all your homework through GitHub. What you'll be doing is upload all your files to a separate repository.
 
-Go over to [HackYourHomework/JavaScript1](https://www.github.com/HackYourHomework/JavaScript1). Notice how it's **HackYourHomework**, a repository meant to submit the homework!
 
-Then take a look at the following [guide](../hand-in-homework-guide.md) to see to set everything up.
 
 The homework that needs to be submitted is the following:
 
