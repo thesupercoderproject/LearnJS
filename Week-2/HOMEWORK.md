@@ -161,4 +161,4 @@ After you've finished your todo list it's time to show us what you got! The home
 
 Push the Solution to GitHub as Usual, Go for Gold!
 
-_Deadline Saturday 23.59 CET_
+_Deadline Saturday 23.59 GMT+1_
