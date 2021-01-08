@@ -30,7 +30,9 @@ This example is a `function definition`; a function is being defined. Let's exam
 
 The first word, `function`, is a keyword, that indicates that what will follow is a function definition. The word `multiplyTwoNumbers` is the name of the function, that will be referred to when the function needs to be executed.
 
-> Note: This is a common pattern you'll find across different programming languages. It's usually necessary to specify what type of data you are going to create, before creating it. This is necessary because they computer cannot guess how they should treat any piece of information. It would the same as, before you ask a question to someone, you would say: QUESTION, what is a function? Saying QUESTION before you ask a question informs the interpreting party (i.e. the person you're talking to) that what you just said is a question. In human communication that's usually not necessary, but it is when communicating with computers.
+<!-- on the Note: they in this line <This is necessary because they computer cannot> is corrected to <the></the> -->
+
+> Note: This is a common pattern you'll find across different programming languages. It's usually necessary to specify what type of data you are going to create, before creating it. This is necessary because the computer cannot guess how they should treat any piece of information. It would the same as, before you ask a question to someone, you would say: QUESTION, what is a function? Saying QUESTION before you ask a question informs the interpreting party (i.e. the person you're talking to) that what you just said is a question. In human communication that's usually not necessary, but it is when communicating with computers.
 
 The words `number1` and `number2` are called `parameters`: they work as a temporary placeholder that will be replaced with real data.
 
